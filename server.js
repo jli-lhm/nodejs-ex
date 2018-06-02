@@ -32,7 +32,7 @@ if (mongoURL == null && process.env.DATABASE_SERVICE_NAME) {
 
   }
 }
-var db = null,dscdsc
+var db = null,
     dbDetails = new Object();
 
 var initDb = function(callback) {
